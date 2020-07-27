@@ -1,7 +1,7 @@
 FROM jmontero/elixir:1.9.2
 MAINTAINER John Montero <jmonteroc@gmail.com>
 RUN apk --no-cache add -U nodejs nodejs-npm inotify-tools libsass libsass-dev sassc \
-    && mix archive.install hex phx_new 1.5.3 --force
+    && mix archive.install hex phx_new 1.5.4 --force
 
 ENV QT_QPA_PLATFORM=offscreen
 
